@@ -28,10 +28,7 @@ public class DogControllers {
 	@Autowired
 	TrainerRepository  trainerRepo;
 	
-//	@RequestMapping("dogHome")
-//	public String home() {
-//		return "home";
-//	}
+
 	@RequestMapping("dogHome")
 	public ModelAndView home() {
 		mv.setViewName("home");
